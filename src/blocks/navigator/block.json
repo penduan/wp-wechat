@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp-wechat/navigator",
+	"version": "0.1.0",
+	"title": "miniprogram navigator",
+	"category": "design",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"attributes": {
+		"type": {
+			"type": "string",
+			"default": "switchTab"
+		},
+		"url": {
+			"type": "string",
+			"default": "/pages/index/index"
+		}
+	},
+	"supports": {
+		"interactivity": true
+	},
+	"textdomain": "wp-wechat",
+	"editorScript": "file:./index.js",
+	"viewScriptModule": "file:./view.js"
+}

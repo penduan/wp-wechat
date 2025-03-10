@@ -1,0 +1,2 @@
+# wp-wechat
+为wordpress适配微信小程序环境,旨在复用wordpress的block块编辑器可以更好的与小程序交互
